@@ -1,0 +1,16 @@
+HERE is our assignment 3 and a short description and requirements of this assignment.
+
+1. You have to add a favicon that will be given. 
+2. You need to concerntrate on the table and analyse the table to be solved with HTML code.
+Hints: Use colspan, rowspan, list, anchor, border  
+3. There 3 anchor tags were use inside the list tag. 
+
+4. Then there 2 questions are provided to answer in your words by using heading and p tag. 
+
+5. In the end, a registration form you need to create.
+
+Good luck, 
+S. M. Shahidullah Kaiser Talib
+intern member, WBC.
+Mentor: Group - 7
+(WB2302127 - WB2302139)
