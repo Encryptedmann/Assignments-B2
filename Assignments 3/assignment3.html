@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="shortcut icon" href="html5.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgb(59, 1, 1);
+            color: rgba(255, 255, 255, 0.562);
+
+        }
+
+        .myTable {
+            height: 300px;
+            width: 450px;
+            border: 2px solid rgba(255, 255, 255, 0.805);
+            text-align: center;
+        }
+
+        tr,
+        td {
+            border: 2px solid rgba(255, 255, 255, 0.805);
+        }
+
+        #w3schools,
+        #mozilla,
+        #html {
+            color: rgba(143, 233, 173, 0.603);
+        }
+
+        .websites-container {}
+
+        a {
+            color: rgba(255, 255, 255, 0.562);
+        }
+    </style>
+</head>
+
+<body>
+
+    <table align="center" class="myTable">
+        <caption>Play with Table</caption>
+        <!-- Row A -->
+        <tr>
+            <td colspan="3">1</td>
+            <td>4</td>
+            <td rowspan="3">5
+                <ul>
+                    <li style="list-style-type: square;"><a id="w3schools"
+                            href="https://www.w3schools.com/">W3schools</a></li>
+                    <li style="list-style-type: disc;"><a id="mozilla" href="https://developer.mozilla.org/en-US/">
+                            Developer Mozilla</a></li>
+                    <li style="list-style-type: circle;"><a id="html" href="https://html.com/"> HTML</a></li>
+                </ul>
+            </td>
+        </tr>
+        <!-- Row B -->
+        <tr>
+            <td>1</td>
+            <td rowspan="2">2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <!-- Row C -->
+        <tr>
+            <td rowspan="2">1</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <!-- Row D -->
+        <tr>
+            <td colspan="3">2</td>
+            <td>5</td>
+        </tr>
+        <!-- Row E -->
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td colspan="3">3</td>
+        </tr>
+    </table>
+
+    <div align="center" class="websites-container">
+        <h2 id="">Learning Websites</h2>
+        <h3> <a href="#w3schools"> W3Schools</a></h3>
+        <p>
+            W3Schools is a freemium educational website for learning coding online.[1][2] Initially released in 1998, it
+            derives its name from the World Wide Web but is not affiliated with the W3 Consortium.[3][4] W3Schools
+            offers courses covering all aspects of web development.[5] W3Schools also publishes free HTML templates. It
+            is run by Refsnes Data in Norway.[6] It has an online text editor called TryIt Editor, and readers can edit
+            examples and run the code in a test environment.
+        </p>
+        <h3> <a href="#mdnwebdocs"> Mozilla Developers</a></h3>
+        <p>
+            MDN Web Docs, previously Mozilla Developer Network and formerly Mozilla Developer Center, is a documentation
+            repository and learning resource for web developers. It was started by Mozilla in 2005[1] as a unified place
+            for documentation about open web standards, Mozilla's own projects, and developer guides.[2]
+
+            MDN Web Docs content is maintained by Mozilla, Google employees, and volunteers (community of developers and
+            technical writers). It also contains content contributed by Microsoft, Google, and Samsung who, in 2017,
+            announced they would shut down their own documentation projects and move all their documentation to MDN Web
+            Docs.[3] Topics include HTML5, JavaScript, CSS, Web APIs, Django, Node.js, WebExtensions, MathML, and
+            others.[4]
+        </p>
+        <h3> <a href="#htmldocs"> HTML docs</a></h3>
+        <p>
+            Whether you are a novice, hoping to delve into the world of web design or an experienced webmaster keen to
+            improve your skills, we’ve got online tutorials tailored to your web design needs.
+
+            In a rush? Go straight to our tutorial and start learning HTML now!
+
+            Our absolute beginner tutorial will turn you from wannabe to webmaster in just a few hours. Unlike many
+            other HTML tutorials, it’s a step-by-step guide – not a boring long-winded reference.
+
+            Our step-by-step guide teaches you the basics of HTML and how to build your first website. That means how to
+            layout an HTML page, how to add text and images, how to add headings and text formatting, and how to use
+            tables.
+
+            We’ll get you building your new website in minutes, not hours.
+        </p>
+    </div>
+    <div align="center">
+
+        <img id="w3schools" src="image/W3Schools.png" width="250px" height="200px" alt=""> <br>
+        <img id="mdnwebdocs" src="image/mdnwebdocs.svg" width="250px" height="200px" alt=""> <br>
+        <img id="htmldocs" src="image/html-com-logo.webp" width="250px" height="200px" alt="">
+
+
+
+    </div>
+
+    <div align="center">
+        <h2>Write short note:</h2>
+        <p>1. HTTP and HTTPS, and its function</p>
+        <p>2. Google Search is an unavoidable part for programmers life.</p>
+    </div>
+
+
+    <div align="center" class="form-container">
+        <form action="#" method="get" target="_blank">
+            <fieldset>
+                <legend align="center" id="contact">Registration Form</legend>
+                <label for="Fname">Fast Name:</label>
+                <input type="text" placeholder="Enter your first name" id="Fname" required><br><br>
+                <label for="Lname">Last Name:</label>
+                <input type="text" placeholder="Enter your last name" id="Lname"><br><br>
+                <label for="">Email:</label>
+                <input type="email" placeholder="wick@gmail.com"><br><br>
+                <label for="">Password:</label>
+                <input type="password" placeholder="password"><br><br>
+                <label for="">Contact No:</label>
+                <input type="number" placeholder="01500 000 000"><br><br>
+                <label for="">Gender:</label>
+                <input type="radio" name="gender">
+                <label for="">Male</label>
+                <input type="radio" name="gender">
+                <label for="">Female</label>
+                <input type="radio" name="gender">
+                <label for="">Others</label><br><br>
+                <button>Sign Up</button>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>
